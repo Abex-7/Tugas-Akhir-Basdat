@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="989403E0-2723-0047-B4C2-21EE36426B24" mainViewID="563D260C-63B5-C166-E800-CD4BFDD4A96B">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 15:52:35 UTC</createdTime>
+<ownerDesignName>TUGAS BESAR BASISDATA</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

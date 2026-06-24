@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AF60EFE-3A29-8425-B93D-9D9ABD9105AD" name="PAYMENTS">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:38:28 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_SERIAL" id="72E1FC73-ECAD-2406-5145-E629E1D80275">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:38:55 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="booking_id" id="296592D0-E066-EE3E-73CA-98AA3072C966">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:38:55 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="FA6ED5CC-B6E9-A4FB-C548-9103DC0B5869">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:38:55 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment_date" id="10AA21DC-CFF1-3AAF-CE5B-A61767FD44F7">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:38:55 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="credit_card_id" id="F68DB75F-153F-C1D2-92C0-885A8B9CB525">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:38:55 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_wallet_id" id="D3B63701-B90E-D153-E0D6-1DB79AECDAA5">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:38:56 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_SERIAL1" id="D0D13EA2-2D9E-A8E6-9EE3-C80E43E5283B">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 01:59:36 UTC</createdTime>
+<generatorID>0F2EF415-68A6-05D7-3563-DD2B9F497FD3</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<referedAttribute>876A421D-DA05-5F10-3D22-42318F94528C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_SERIAL2" id="F4B45A2A-3800-C8D8-55D4-760477138F1F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 01:59:55 UTC</createdTime>
+<generatorID>A520D27E-7434-8344-56A8-C81B1E8636F7</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<referedAttribute>061D6FFF-F44A-33ED-BE03-4F9C44187149</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_SERIAL3" id="BCC1FFE4-528F-98B7-A6BA-C2D1767AD30F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:00:03 UTC</createdTime>
+<generatorID>F786435B-4E67-AAFB-9169-0EF27F4DC2BE</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<referedAttribute>F6B8C716-F334-69BA-BC14-9D6C9E23E08F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9AD4D131-4041-55E0-06AB-99E7157EB621" name="PAYMENTS PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:41:37 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72E1FC73-ECAD-2406-5145-E629E1D80275</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9ED2C99B-DF4F-0B0D-09B3-A8ABF7EDC2F6" name="PELANGGAN">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>DCCCFD5E-A20E-4EF5-9A81-449806D5326A</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pelanggan_id" id="D7E6B0F9-FF38-5938-5E7D-BD49C7DE277D">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>208D16B9-0D8F-849B-CD99-F74C025D9174</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="616BCB2A-E02B-139F-601F-55139CA5FB68">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>3F341DE1-3998-B8A0-D5C5-C89A8C814C38</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="7BC9D091-D492-D4EB-7655-C1F89F860DB0">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>B0949C45-2197-53C3-33A3-7736AD828CC6</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_hp" id="E38267CE-FF82-C8D1-4B74-9C1D83DDABD3">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>CC3EE31B-79E8-CA18-8F43-A93F49D2B9D8</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pengguna_id" id="BE82389F-9180-2FF6-99E1-0362FDB61F05">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>876A421D-DA05-5F10-3D22-42318F94528C</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80827AE6-C711-92FE-B5C3-DF5E7D514CA4" referredColumn="F11A4A0C-6188-AA18-4AA0-F9BA6568C961"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C138B8AD-B323-8211-04C0-35939690FD3B" name="PELANGGAN_PKv1">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>41AF9159-7731-E237-6EBF-1A182A2E0235</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE82389F-9180-2FF6-99E1-0362FDB61F05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A87EAF2-9E19-9E74-A978-B3DCFE72EE6E" name="PELANGGAN_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>0BB08436-B765-86D8-93C1-05BD9D7CD35C</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7E6B0F9-FF38-5938-5E7D-BD49C7DE277D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="371AEB50-7795-D4A5-A410-DD2C725E957E" name="PELANGGAN_PENGGUNA_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>53CA2989-2158-CDAE-EC6E-EFE253A05FCC</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE82389F-9180-2FF6-99E1-0362FDB61F05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

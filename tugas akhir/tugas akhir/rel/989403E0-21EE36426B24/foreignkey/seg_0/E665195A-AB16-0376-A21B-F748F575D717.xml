@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E665195A-AB16-0376-A21B-F748F575D717" containerWithKeyObject="B13483A5-CBE9-F5B7-334E-775094E6C7F1" localFKIndex="19A88BE2-6BE9-F97E-7A74-F06B37CFFDCE" name="JADWAL_FILM_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>FBD6586B-051D-CF14-8DBE-B1C764E25221</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<referredTableLongName>FILM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0706AE29-2D78-9C6D-FCF7-37FB1F676298</referredTableID>
+<keyObject>2471A9FB-F167-8057-BFBF-DBE5D62EECD2</keyObject>
+<referredKeyID>2471A9FB-F167-8057-BFBF-DBE5D62EECD2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

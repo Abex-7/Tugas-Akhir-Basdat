@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0706AE29-2D78-9C6D-FCF7-37FB1F676298" name="FILM">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>2C097271-6C61-5902-4580-C3D57D8977A1</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A5E65992-0861-B19E-F353-A3C9B14A2AE7">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>114DCA05-2EDC-98D0-FCB0-C260CAD89146</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="CD87BE47-3B0D-DCF0-77F8-F2F22B38B980">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>CA11EDBB-999D-0EA5-4170-C05FE61D6F29</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="047D0716-4EB6-6D35-5883-37175EEF2170">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>CD4AABDF-6D89-779F-6920-221B6F95FB53</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="13849F23-63E2-519C-06D8-6CBF5D3C88A8">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>9AB92455-F256-A5DA-0A45-EF8F4EAE4172</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="full_name" id="DA3CC6E6-8BA9-837E-F52A-8D826F848CC5">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>7FBE7B40-CF68-00BE-83D8-6D638BA95B09</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="D086E92F-9D6A-E9CD-C8B0-6553CB32CB63">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>E1930DD7-9D73-ADC2-E59F-80F346792F50</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_type" id="59BFBF39-D8B6-1F1A-0193-EE358B28EBAB">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>B75045F4-EA9B-FDAF-F01B-16DABF81ECA3</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2471A9FB-F167-8057-BFBF-DBE5D62EECD2" name="FILM_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>D9C133E0-EA60-1449-4EC7-274642EBACC9</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5E65992-0861-B19E-F353-A3C9B14A2AE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

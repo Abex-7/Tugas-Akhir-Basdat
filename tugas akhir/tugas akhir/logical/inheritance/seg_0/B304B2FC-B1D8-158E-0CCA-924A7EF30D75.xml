@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_6" directorySegmentName="seg_0" id="B304B2FC-B1D8-158E-0CCA-924A7EF30D75">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:04:22 UTC</createdTime>
+<ownerDesignName>TUGAS BESAR BASISDATA</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>2C097271-6C61-5902-4580-C3D57D8977A1</sourceEntity>
+<targetEntity>7130A9C1-90AA-744D-AAD9-78B3DE3C2024</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

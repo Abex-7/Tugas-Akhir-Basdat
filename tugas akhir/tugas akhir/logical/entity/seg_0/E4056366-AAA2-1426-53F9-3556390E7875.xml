@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4056366-AAA2-1426-53F9-3556390E7875" name="EMPLOYEES">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:29:06 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>2C097271-6C61-5902-4580-C3D57D8977A1</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="2128110F-3E1A-0D49-1666-7D88D8FF3A17">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:29:46 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_code" id="A4DCCBFE-E46F-81E5-51F4-A1AC8F0172AE">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:29:46 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="position" id="3E236923-867F-8F4E-A809-EF6F8911A166">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:29:46 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="9899F9AD-70EB-69BB-8349-ADE874ADE45B">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:29:46 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="BE7CE039-6884-6A3D-EA1F-A843B32E0691">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 01:55:38 UTC</createdTime>
+<generatorID>9E4E4BFE-5561-63A8-8CF0-A716B6692054</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<referedAttribute>114DCA05-2EDC-98D0-FCB0-C260CAD89146</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id1" id="87918982-BEC2-2839-6C8B-7234B4061427">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:12:37 UTC</createdTime>
+<generatorID>D0D1D8AE-5AF9-280E-5DFB-96531364C813</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2128110F-3E1A-0D49-1666-7D88D8FF3A17</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9189EFA9-3860-9AE5-F2FF-7365ABEB3000" name="PEMESANAN PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:35:51 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2128110F-3E1A-0D49-1666-7D88D8FF3A17</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

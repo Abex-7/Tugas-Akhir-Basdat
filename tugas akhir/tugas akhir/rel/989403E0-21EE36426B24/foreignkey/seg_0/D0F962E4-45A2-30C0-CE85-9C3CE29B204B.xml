@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D0F962E4-45A2-30C0-CE85-9C3CE29B204B" containerWithKeyObject="C9A0E563-5701-A156-48F9-A61019BB9EDA" localFKIndex="6F0EF3F3-0E06-EF46-5895-E99485F1207D" name="BOOKINGS_SHOWTIMES_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>64D75558-340F-AFDF-800F-5B52ECA473E9</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<referredTableLongName>SHOWTIMES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>15782694-8424-B677-AB8F-E6C194BDBC6C</referredTableID>
+<keyObject>6870709F-CE5B-2ED6-A625-926CEFC8D555</keyObject>
+<referredKeyID>6870709F-CE5B-2ED6-A625-926CEFC8D555</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_SERIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2798EF61-D1BF-6D0B-14AD-F294703A95F5" containerWithKeyObject="BF49A066-1E76-F4F5-B064-2A2819D2C17C" localFKIndex="E129CA98-9CD8-0F98-9F6D-218F6325077B" name="PAYMENTS_CREDIT_CARDS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>A520D27E-7434-8344-56A8-C81B1E8636F7</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<referredTableLongName>CREDIT_CARDS</referredTableLongName>
+<arc>8A941457-AFE5-5D3D-38F3-EDF930855409</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F8FCF3FE-2304-59B3-EA94-B733857FB72C</referredTableID>
+<keyObject>D2FFC19C-FF3E-66DD-AEB2-C523C7D8462D</keyObject>
+<referredKeyID>D2FFC19C-FF3E-66DD-AEB2-C523C7D8462D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_SERIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
