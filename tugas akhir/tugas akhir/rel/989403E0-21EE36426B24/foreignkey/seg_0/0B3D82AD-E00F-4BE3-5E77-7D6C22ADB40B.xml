@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B3D82AD-E00F-4BE3-5E77-7D6C22ADB40B" containerWithKeyObject="BF49A066-1E76-F4F5-B064-2A2819D2C17C" localFKIndex="0E4F7657-004C-10B2-5408-D0B793710D04" name="PAYMENTS_BOOKINGS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>0F2EF415-68A6-05D7-3563-DD2B9F497FD3</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<referredTableLongName>BOOKINGS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C9A0E563-5701-A156-48F9-A61019BB9EDA</referredTableID>
+<keyObject>5A4C97D6-B6E2-79BE-666C-FD4CEAAB1206</keyObject>
+<referredKeyID>5A4C97D6-B6E2-79BE-666C-FD4CEAAB1206</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_SERIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

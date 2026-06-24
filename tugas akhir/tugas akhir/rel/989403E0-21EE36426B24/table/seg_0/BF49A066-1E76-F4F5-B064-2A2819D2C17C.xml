@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF49A066-1E76-F4F5-B064-2A2819D2C17C" name="PAYMENTS">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>2AF60EFE-3A29-8425-B93D-9D9ABD9105AD</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_SERIAL" id="6BAA54A5-808C-133B-D740-C30C438931F4">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>72E1FC73-ECAD-2406-5145-E629E1D80275</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="booking_id" id="3EB3F143-EFF1-70B9-EBD3-79241BAC8B45">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>296592D0-E066-EE3E-73CA-98AA3072C966</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="7BE16DC4-8BC5-015D-5552-1AAD977ED4A4">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>FA6ED5CC-B6E9-A4FB-C548-9103DC0B5869</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_date" id="5A11E09F-2C56-06FB-4605-B23C6A703C99">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>10AA21DC-CFF1-3AAF-CE5B-A61767FD44F7</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="credit_card_id" id="109D9AA3-E95B-BE36-5AFE-15CB0E9BC0C2">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>F68DB75F-153F-C1D2-92C0-885A8B9CB525</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_wallet_id" id="4DF6B3DB-EE25-C8F4-AC60-B632E0BB975F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>D3B63701-B90E-D153-E0D6-1DB79AECDAA5</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKINGS_id_SERIAL" id="25D5840F-0E3F-3F03-8261-EB39EDA796B4">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>D0D13EA2-2D9E-A8E6-9EE3-C80E43E5283B</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B3D82AD-E00F-4BE3-5E77-7D6C22ADB40B" referredColumn="F11A4A0C-6188-AA18-4AA0-F9BA6568C961"/>
+</associations>
+</Column>
+<Column name="CREDIT_CARDS_id_SERIAL" id="7EAF4FFC-1126-2AB3-0EA6-67BD9F574EED">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>F4B45A2A-3800-C8D8-55D4-760477138F1F</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2798EF61-D1BF-6D0B-14AD-F294703A95F5" referredColumn="9DF70F8F-CB32-8E7A-1C40-D789EAF61B28"/>
+</associations>
+</Column>
+<Column name="E_WALLETS_id_SERIAL" id="3261FC5C-C6E7-CB08-126A-11ADBDC71117">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>BCC1FFE4-528F-98B7-A6BA-C2D1767AD30F</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2548BF34-D94D-164B-7041-08B8EF927BFD" referredColumn="83067688-DC81-22C8-F305-38A3543B8767"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6F0D04C-CC59-71CC-BBCE-7A2B93EC26EC" name="PAYMENTS_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>9AD4D131-4041-55E0-06AB-99E7157EB621</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BAA54A5-808C-133B-D740-C30C438931F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5649599A-0F19-E3B2-9605-FADACD52BC4E" name="PAYMENTS__IDX">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0F2EF415-68A6-05D7-3563-DD2B9F497FD3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="25D5840F-0E3F-3F03-8261-EB39EDA796B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25F5BAA1-92EB-C7D7-E564-8A0B7C79277A" name="PAYMENTS__IDXv1">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A520D27E-7434-8344-56A8-C81B1E8636F7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7EAF4FFC-1126-2AB3-0EA6-67BD9F574EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E95C1889-1CEF-F8DB-3E50-4C12AE8BB642" name="PAYMENTS__IDXv2">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F786435B-4E67-AAFB-9169-0EF27F4DC2BE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3261FC5C-C6E7-CB08-126A-11ADBDC71117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E4F7657-004C-10B2-5408-D0B793710D04" name="PAYMENTS_BOOKINGS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>0F2EF415-68A6-05D7-3563-DD2B9F497FD3</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25D5840F-0E3F-3F03-8261-EB39EDA796B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E129CA98-9CD8-0F98-9F6D-218F6325077B" name="PAYMENTS_CREDIT_CARDS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>A520D27E-7434-8344-56A8-C81B1E8636F7</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EAF4FFC-1126-2AB3-0EA6-67BD9F574EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABD0E65E-923F-C4EE-995E-24F45AB47698" name="PAYMENTS_E_WALLETS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>F786435B-4E67-AAFB-9169-0EF27F4DC2BE</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3261FC5C-C6E7-CB08-126A-11ADBDC71117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

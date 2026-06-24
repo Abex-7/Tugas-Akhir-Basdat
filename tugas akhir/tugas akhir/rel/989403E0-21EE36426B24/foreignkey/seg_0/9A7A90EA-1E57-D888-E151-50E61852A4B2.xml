@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A7A90EA-1E57-D888-E151-50E61852A4B2" containerWithKeyObject="15782694-8424-B677-AB8F-E6C194BDBC6C" localFKIndex="8098A590-78CC-2CE7-B269-C525E733413E" name="PEMBAYARAN_ONLINE_PEMBAYARAN_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:58:33 UTC</createdTime>
+<generatorID>A44FBC46-9E86-B392-AE07-0D14606C9654</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<referredTableLongName>FILMv1</referredTableLongName>
+<arc>B78DC766-8569-BF93-F169-4555338480FA</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E40AC0A-4E79-6BBE-E9E8-B6BE458776EB</referredTableID>
+<keyObject>F6AA5F72-B05F-316F-DBD1-45C279220758</keyObject>
+<referredKeyID>F6AA5F72-B05F-316F-DBD1-45C279220758</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_SERIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

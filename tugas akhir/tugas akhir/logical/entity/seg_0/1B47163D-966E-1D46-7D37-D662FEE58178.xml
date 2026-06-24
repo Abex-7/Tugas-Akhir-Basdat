@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B47163D-966E-1D46-7D37-D662FEE58178" name="FILM">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:14:38 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_SERIAL" id="B30239E4-C990-492E-E275-E545E4137E68">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:15:01 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="A58058B5-ECD6-4DE5-CF74-A50080B52BB3">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:15:49 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description TEXT,genre" id="191F8FE6-B3D7-B878-A46D-2A9AF735CE9D">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:16:28 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duration_minutes" id="46627338-DC26-D940-82B9-68E9EFDB28B5">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:19:33 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="84F65D48-2ED4-D3AA-494E-DE2F3B2B3CEE">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:19:43 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="poster_url TEXT,     release_date" id="5DD26D77-96A7-885D-0178-26963533ED3A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:19:44 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="191E9E33-7A8C-8EEF-476B-9471133DFD7B" name="PEMBAYARAN PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:15:44 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B30239E4-C990-492E-E275-E545E4137E68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

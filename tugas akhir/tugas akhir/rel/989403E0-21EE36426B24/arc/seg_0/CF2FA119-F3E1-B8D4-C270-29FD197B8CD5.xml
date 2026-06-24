@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="CF2FA119-F3E1-B8D4-C270-29FD197B8CD5" name="FKArc_3">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<ownerDesignName>TUGAS BESAR BASISDATA</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>0706AE29-2D78-9C6D-FCF7-37FB1F676298</table>
+<fkeys>
+<fkeyID>39FBB848-838B-D4D5-F938-445ED809EBB9</fkeyID>
+<fkeyID>A2B76434-DC14-C729-451C-8BFAAA9133A1</fkeyID>
+</fkeys>
+</FKArc>

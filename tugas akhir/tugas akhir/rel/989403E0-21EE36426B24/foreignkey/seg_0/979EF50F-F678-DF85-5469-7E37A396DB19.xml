@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="979EF50F-F678-DF85-5469-7E37A396DB19" containerWithKeyObject="E5C69C6D-FD11-BAC4-5C93-CE6908124DD1" localFKIndex="7F63C15D-A455-C87F-677D-D48953C31E4F" name="PEGAWAI_PENGGUNA_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>4090D2A1-6EA2-B43A-E4DB-F1E5F9B842A6</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<referredTableLongName>BOOKINGS</referredTableLongName>
+<arc>5DF6298A-19BB-F0D2-8B87-CBB4C6B7EA73</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C9A0E563-5701-A156-48F9-A61019BB9EDA</referredTableID>
+<keyObject>5A4C97D6-B6E2-79BE-666C-FD4CEAAB1206</keyObject>
+<referredKeyID>5A4C97D6-B6E2-79BE-666C-FD4CEAAB1206</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_SERIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

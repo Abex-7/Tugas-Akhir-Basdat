@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99786174-95F3-0C25-CA52-5B8659C28EF0" containerWithKeyObject="C9A0E563-5701-A156-48F9-A61019BB9EDA" localFKIndex="10E694B8-7EDA-DA2E-3B73-61ED59E06D99" name="BOOKINGS_FILM_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>2D128D89-E6E9-5092-C4C5-DCF56BC8E750</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<referredTableLongName>FILM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0706AE29-2D78-9C6D-FCF7-37FB1F676298</referredTableID>
+<keyObject>2471A9FB-F167-8057-BFBF-DBE5D62EECD2</keyObject>
+<referredKeyID>2471A9FB-F167-8057-BFBF-DBE5D62EECD2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

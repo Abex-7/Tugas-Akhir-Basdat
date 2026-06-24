@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A225DD08-F131-42B6-5485-AE6EA55B12B9" containerWithKeyObject="15782694-8424-B677-AB8F-E6C194BDBC6C" localFKIndex="6865E725-1B3B-314F-ADD3-0AF6AAE35E2F" name="SHOWTIMES_STUDIO_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>623C1C9E-8758-C9C7-934F-E4E8253E07A3</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<referredTableLongName>STUDIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>89FB8236-43EA-6622-6408-B1A55CCBF355</referredTableID>
+<keyObject>5922AE7B-1CE4-0B16-6D3E-D255648A0928</keyObject>
+<referredKeyID>5922AE7B-1CE4-0B16-6D3E-D255648A0928</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_SERIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

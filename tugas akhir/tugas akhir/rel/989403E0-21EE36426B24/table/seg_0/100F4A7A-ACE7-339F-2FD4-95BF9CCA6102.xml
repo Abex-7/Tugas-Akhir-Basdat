@@ -1,0 +1,238 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="100F4A7A-ACE7-339F-2FD4-95BF9CCA6102" name="PEMESANAN">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>E4056366-AAA2-1426-53F9-3556390E7875</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="D2A86C51-B429-1BEC-8039-07F4D75956E0">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>2128110F-3E1A-0D49-1666-7D88D8FF3A17</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="employee_code" id="0D5B6AC1-CBD6-A1B6-1162-8E3FBC1A7B29">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>A4DCCBFE-E46F-81E5-51F4-A1AC8F0172AE</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="position" id="394FF308-9BD9-7729-CC4A-977C7A13B441">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>3E236923-867F-8F4E-A809-EF6F8911A166</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="F5F1A936-A758-ED0B-18BB-5B4DE94EF2FF">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>9899F9AD-70EB-69BB-8349-ADE874ADE45B</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_harga" id="FA6BB4BC-E9A9-8699-B787-72982F941EAC">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>A48E19FC-D056-D333-3088-93DF0D42438C</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PELANGGAN_pelanggan_id" id="EFF100F5-0156-2C68-E2F4-25B802D567DB">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>02204FBA-1D14-36A7-D355-A994A0AA53D7</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51038CA4-0120-1C43-4F6D-947C212A0061" referredColumn="D7E6B0F9-FF38-5938-5E7D-BD49C7DE277D"/>
+</associations>
+</Column>
+<Column name="JADWAL_jadwal_id" id="BFC4A7D9-EF7E-81C0-8711-D33F9C760092">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>C2630319-428C-104C-771C-3F84914C8D1C</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8A1B71C-993D-A648-3C58-B41D5BD7383D" referredColumn="01DBFA0D-ED61-CC80-41FE-E2C5D8C8A700"/>
+</associations>
+</Column>
+<Column name="id" id="41744631-05A8-0F37-4C99-B358289EB97E">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>114DCA05-2EDC-98D0-FCB0-C260CAD89146</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2B76434-DC14-C729-451C-8BFAAA9133A1" referredColumn="A5E65992-0861-B19E-F353-A3C9B14A2AE7"/>
+</associations>
+</Column>
+<Column name="FILM_id" id="00C61865-AC08-61AE-E726-DBAA73FCB80B">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>BE7CE039-6884-6A3D-EA1F-A843B32E0691</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3ECFA8B1-6328-DD36-4FF7-FF595ACD985F" referredColumn="A5E65992-0861-B19E-F353-A3C9B14A2AE7"/>
+</associations>
+</Column>
+<Column name="PEMESANAN_user_id" id="666AF883-719A-7327-E229-0AF46993CFEB">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>87918982-BEC2-2839-6C8B-7234B4061427</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FF6C81F-143C-3B9C-AF14-A47D3C37D0CD" referredColumn="D2A86C51-B429-1BEC-8039-07F4D75956E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DE8335D-F57D-9590-D868-E2700425AD97" name="PEMESANAN_PKv1">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>D9C133E0-EA60-1449-4EC7-274642EBACC9</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41744631-05A8-0F37-4C99-B358289EB97E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48D5E44C-F9AE-F690-4AD1-4F27877EBE35" name="PEMESANAN_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>9189EFA9-3860-9AE5-F2FF-7365ABEB3000</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2A86C51-B429-1BEC-8039-07F4D75956E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18DB27F9-9B61-E451-A0A7-F4B2F2034B26" name="PEMESANAN__IDX">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9E4E4BFE-5561-63A8-8CF0-A716B6692054</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="00C61865-AC08-61AE-E726-DBAA73FCB80B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="411B4401-4AB0-9F27-F94C-43F4AA9F9D8C" name="PEMESANAN_PELANGGAN_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>04E310AF-0F15-8677-8FBF-446430A9FC68</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFF100F5-0156-2C68-E2F4-25B802D567DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90FC58BC-4D6A-47C6-A7EB-45212B6729F4" name="PEMESANAN_JADWAL_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:47:57 UTC</createdTime>
+<generatorID>82C3E3DF-B0CB-9A5C-E3D4-0A7BBB438D3C</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFC4A7D9-EF7E-81C0-8711-D33F9C760092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7164E84-6722-BDB9-1DFC-17B8C1347C35" name="PEMESANAN_FILM_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>9B3AFD9D-9CD8-D55F-15EA-8E371F2746D8</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41744631-05A8-0F37-4C99-B358289EB97E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7AD228C-1813-47F3-0B97-F8D467EEAB08" name="PEMESANAN_FILM_FKv2">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>9E4E4BFE-5561-63A8-8CF0-A716B6692054</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C61865-AC08-61AE-E726-DBAA73FCB80B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E18C190-7CA0-EF36-D7BE-D556A4096059" name="PEMESANAN_PEMESANAN_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>D0D1D8AE-5AF9-280E-5DFB-96531364C813</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="666AF883-719A-7327-E229-0AF46993CFEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

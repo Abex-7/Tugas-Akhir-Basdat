@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B61180C-054D-85CB-B0A5-A81BC8EE9628" containerWithKeyObject="18D5387E-DA49-CA7D-722F-7757A6B874D2" localFKIndex="6B1022FF-DA15-D870-074B-C8C3A9C13E75" name="BOOKED_SEATS_BOOKINGS_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>70866592-ADED-9B05-2B3E-D9858693925E</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<referredTableLongName>BOOKINGS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C9A0E563-5701-A156-48F9-A61019BB9EDA</referredTableID>
+<keyObject>5A4C97D6-B6E2-79BE-666C-FD4CEAAB1206</keyObject>
+<referredKeyID>5A4C97D6-B6E2-79BE-666C-FD4CEAAB1206</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_SERIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

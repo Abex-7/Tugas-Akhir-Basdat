@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="029A6AE3-234A-E439-B4D0-C5FCA7E913B8" name="E_WALLETS">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>7FADB6EE-D9B2-DF11-86D5-729D38DDD60D</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_SERIAL" id="83067688-DC81-22C8-F305-38A3543B8767">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>F6B8C716-F334-69BA-BC14-9D6C9E23E08F</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="provider_name" id="57E64BEC-1EC3-9EE7-F97E-59E07AD9C5E0">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>67CF44D1-B9C8-BE4C-CDD7-1F5D53FA3235</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="DF25423C-7145-FFFD-ABDC-3BCA9979381B">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>253213AE-A74E-7CBF-4356-336F8CA29F05</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4300DDD-B1CF-BB29-1289-9FA48273D19B" name="E_WALLETS_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>730F3AB6-9A07-8AD2-0A2C-1E9AA5CB0EF8</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83067688-DC81-22C8-F305-38A3543B8767"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5C69C6D-FD11-BAC4-5C93-CE6908124DD1" name="PEGAWAI">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>B43FC459-D1ED-1770-8E3E-A33C7B8A6D3F</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pengguna_id" id="DB043088-25EF-6DAE-6CD5-B8405CCE4E5A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>876A421D-DA05-5F10-3D22-42318F94528C</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="979EF50F-F678-DF85-5469-7E37A396DB19" referredColumn="F11A4A0C-6188-AA18-4AA0-F9BA6568C961"/>
+</associations>
+</Column>
+<Column name="pegawai_id" id="8C3CCC48-7152-114B-95C4-3ED97CD486C5">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>C8D30549-1A7A-A2B4-2E2C-C61AC937B5D4</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_pegawai" id="8002798A-CFF0-BC00-6531-26BC9BFCA5DE">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>7A853446-3097-7B8E-1F5C-32672F879622</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jabatan" id="067A16E7-5E8D-5784-22D9-87B1289D4C08">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>70ED1AE6-2751-AEAF-97ED-8F417AD6D4F5</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="atasan_id" id="056CA23D-CF5E-828C-4528-E5ADFCB88A83">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>D15AB5CA-3B35-B4EF-84BF-A50D1635339A</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEGAWAI_pegawai_id" id="82EF7BF6-A9F9-1024-7723-9078095247F5">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:58:33 UTC</createdTime>
+<generatorID>DCC7E8D3-0C01-A594-81C9-8BC55886D935</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98ECC5EC-D224-6CE4-1DEE-B4983834B8AE" referredColumn="8C3CCC48-7152-114B-95C4-3ED97CD486C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DB3E2F9-17BF-2338-6DB9-9351FA225284" name="PEGAWAI_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>41AF9159-7731-E237-6EBF-1A182A2E0235</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB043088-25EF-6DAE-6CD5-B8405CCE4E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E54AAB8-170E-28F1-6A42-7BC47227CE11" name="PEGAWAI_PKv1">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>45859DF8-4CC1-3AD0-E00B-0158F1547427</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C3CCC48-7152-114B-95C4-3ED97CD486C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F63C15D-A455-C87F-677D-D48953C31E4F" name="PEGAWAI_PENGGUNA_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>4090D2A1-6EA2-B43A-E4DB-F1E5F9B842A6</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB043088-25EF-6DAE-6CD5-B8405CCE4E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2F89D5C-8632-0ED5-C6E9-650784724767" name="PEGAWAI_PEGAWAI_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:58:33 UTC</createdTime>
+<generatorID>27337FFE-4781-030F-292F-9771943F998F</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82EF7BF6-A9F9-1024-7723-9078095247F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

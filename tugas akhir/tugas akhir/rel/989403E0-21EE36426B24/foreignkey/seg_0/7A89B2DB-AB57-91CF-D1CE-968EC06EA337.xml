@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7A89B2DB-AB57-91CF-D1CE-968EC06EA337" containerWithKeyObject="15782694-8424-B677-AB8F-E6C194BDBC6C" localFKIndex="92F1C9ED-10BC-4A1F-3F97-D4E61FA55390" name="SHOWTIMES_FILMv1_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>314DD745-022B-386C-551B-44155BE8EEE7</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<referredTableLongName>FILMv1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E40AC0A-4E79-6BBE-E9E8-B6BE458776EB</referredTableID>
+<keyObject>F6AA5F72-B05F-316F-DBD1-45C279220758</keyObject>
+<referredKeyID>F6AA5F72-B05F-316F-DBD1-45C279220758</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_SERIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E40AC0A-4E79-6BBE-E9E8-B6BE458776EB" name="FILMv1">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>1B47163D-966E-1D46-7D37-D662FEE58178</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_SERIAL" id="6A152336-A7F5-3E98-1EC5-EF7AE67FA4D3">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>B30239E4-C990-492E-E275-E545E4137E68</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="72B1BB7E-AA96-3AAB-5B67-2402E6BE98D0">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>A58058B5-ECD6-4DE5-CF74-A50080B52BB3</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description_TEXT,genre" id="36E52921-B227-ACF7-984C-996AFCE0BDF8">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>191F8FE6-B3D7-B878-A46D-2A9AF735CE9D</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEMESANAN_pemesanan_id" id="D0951C98-A802-A405-DC6C-4363F0EAFFB6">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>EACE3B19-3F06-BE14-45FB-E0FB5BFDD9AC</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="265E5904-D3D4-EF6B-4AE3-7DDEFE805636" referredColumn="D2A86C51-B429-1BEC-8039-07F4D75956E0"/>
+</associations>
+</Column>
+<Column name="duration_minutes" id="71DADA7F-35FD-C75A-F9D9-6CBFD614D6FA">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>46627338-DC26-D940-82B9-68E9EFDB28B5</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="734BFAD5-0BAE-B47A-BDEA-C5A644BA0303">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>84F65D48-2ED4-D3AA-494E-DE2F3B2B3CEE</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poster_url_TEXT,_____release_date" id="1C3DD2BA-91B1-AA78-60CC-61825FE51CFF">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>5DD26D77-96A7-885D-0178-26963533ED3A</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6AA5F72-B05F-316F-DBD1-45C279220758" name="PEMBAYARAN_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>191E9E33-7A8C-8EEF-476B-9471133DFD7B</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A152336-A7F5-3E98-1EC5-EF7AE67FA4D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DE75AB7-5C7C-8D6E-2A66-E99FE35AD6FC" name="PEMBAYARAN__IDX">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AF95E194-ADDD-4EE9-263C-55F00497475F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D0951C98-A802-A405-DC6C-4363F0EAFFB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6976899D-1970-AE0C-30E6-6057F8358713" name="PEMBAYARAN_PEMESANAN_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>AF95E194-ADDD-4EE9-263C-55F00497475F</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0951C98-A802-A405-DC6C-4363F0EAFFB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

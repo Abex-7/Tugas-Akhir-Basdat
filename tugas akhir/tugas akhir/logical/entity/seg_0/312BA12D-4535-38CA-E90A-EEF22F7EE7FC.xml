@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="312BA12D-4535-38CA-E90A-EEF22F7EE7FC" name="STUDIO">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:18:50 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_SERIAL" id="5E2A6650-D689-C5C1-28CB-161082C32155">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:19:16 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="AD79381E-1199-1555-2CFB-F578B9804037">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:19:16 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rows_count" id="108282B9-75B1-4F94-234C-4B13CD9EBE51">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:19:18 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cols_count" id="0F3D9A87-CEDD-F948-3017-5F828355AD0E">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-23 18:16:51 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3FC66D9B-D8C5-1550-EB55-4642546377E8" name="STUDIO PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 16:20:49 UTC</createdTime>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="989403E0-2723-0047-B4C2-21EE36426B24" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E2A6650-D689-C5C1-28CB-161082C32155</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

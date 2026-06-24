@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9A0E563-5701-A156-48F9-A61019BB9EDA" name="BOOKINGS">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>538B7389-5F0E-9073-6722-EC41443D907A</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_SERIAL" id="F11A4A0C-6188-AA18-4AA0-F9BA6568C961">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>876A421D-DA05-5F10-3D22-42318F94528C</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="78A05F0D-6C3C-3D16-D99D-D343E75E203F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>CC48B01C-AB62-A112-A5BE-63AEE23CA363</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="showtime_id" id="E8F6BEAB-9AAA-63FE-F779-B189ED91B04F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>D73F87B2-19E7-22F2-C20C-D5747020D9C0</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="booking_date" id="7CAC0E3D-9FE3-BAC7-F1B2-51655EC7C46B">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>20B8CE4E-87D9-8727-6DFB-57673F622F13</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="E61C0A59-5B68-473A-02AB-1B91407D48C4">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>858C2B0B-F04F-BC83-7A65-A7D35382A7F3</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILM_id" id="E062EA49-930A-D173-BF3E-FA50E0375C69">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>ADAEF400-4CDF-AC27-951C-A73DF0693321</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99786174-95F3-0C25-CA52-5B8659C28EF0" referredColumn="A5E65992-0861-B19E-F353-A3C9B14A2AE7"/>
+</associations>
+</Column>
+<Column name="SHOWTIMES_id_SERIAL" id="03FE694E-1E34-43E3-3C80-2C5C29BCBE9D">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>8E2FF48E-39B5-445D-1261-D21041669FE1</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0F962E4-45A2-30C0-CE85-9C3CE29B204B" referredColumn="45431817-CEC3-6682-84F8-5F0FBF3A38C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A4C97D6-B6E2-79BE-666C-FD4CEAAB1206" name="PENGGUNA_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-19 17:37:33 UTC</createdTime>
+<generatorID>41AF9159-7731-E237-6EBF-1A182A2E0235</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F11A4A0C-6188-AA18-4AA0-F9BA6568C961"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10E694B8-7EDA-DA2E-3B73-61ED59E06D99" name="BOOKINGS_FILM_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>2D128D89-E6E9-5092-C4C5-DCF56BC8E750</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E062EA49-930A-D173-BF3E-FA50E0375C69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F0EF3F3-0E06-EF46-5895-E99485F1207D" name="BOOKINGS_SHOWTIMES_FK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-06-24 02:13:29 UTC</createdTime>
+<generatorID>64D75558-340F-AFDF-800F-5B52ECA473E9</generatorID>
+<ownerDesignName>tugas akhir</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03FE694E-1E34-43E3-3C80-2C5C29BCBE9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
